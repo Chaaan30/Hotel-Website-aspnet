@@ -1,0 +1,200 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BE3DF-A910-4ECD-8A21-A86683B9B358}|IT114L-B54-Group 5\\IT114L-B54-Group 5.csproj|C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\it114l-b54-group 5\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{5A2BE3DF-A910-4ECD-8A21-A86683B9B358}|IT114L-B54-Group 5\\IT114L-B54-Group 5.csproj|solutionrelative:it114l-b54-group 5\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BE3DF-A910-4ECD-8A21-A86683B9B358}|IT114L-B54-Group 5\\IT114L-B54-Group 5.csproj|C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\it114l-b54-group 5\\roomsuite.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{5A2BE3DF-A910-4ECD-8A21-A86683B9B358}|IT114L-B54-Group 5\\IT114L-B54-Group 5.csproj|solutionrelative:it114l-b54-group 5\\roomsuite.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BE3DF-A910-4ECD-8A21-A86683B9B358}|IT114L-B54-Group 5\\IT114L-B54-Group 5.csproj|c:\\users\\crist\\onedrive\\documents\\github\\hotel-website-aspnet\\it114l-b54-group 5\\reservation.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{5A2BE3DF-A910-4ECD-8A21-A86683B9B358}|IT114L-B54-Group 5\\IT114L-B54-Group 5.csproj|solutionrelative:it114l-b54-group 5\\reservation.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BE3DF-A910-4ECD-8A21-A86683B9B358}|IT114L-B54-Group 5\\IT114L-B54-Group 5.csproj|C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\it114l-b54-group 5\\reservation.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{5A2BE3DF-A910-4ECD-8A21-A86683B9B358}|IT114L-B54-Group 5\\IT114L-B54-Group 5.csproj|solutionrelative:it114l-b54-group 5\\reservation.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BE3DF-A910-4ECD-8A21-A86683B9B358}|IT114L-B54-Group 5\\IT114L-B54-Group 5.csproj|C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\it114l-b54-group 5\\reservation.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BE3DF-A910-4ECD-8A21-A86683B9B358}|IT114L-B54-Group 5\\IT114L-B54-Group 5.csproj|solutionrelative:it114l-b54-group 5\\reservation.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BE3DF-A910-4ECD-8A21-A86683B9B358}|IT114L-B54-Group 5\\IT114L-B54-Group 5.csproj|C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\it114l-b54-group 5\\roomdouble.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{5A2BE3DF-A910-4ECD-8A21-A86683B9B358}|IT114L-B54-Group 5\\IT114L-B54-Group 5.csproj|solutionrelative:it114l-b54-group 5\\roomdouble.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BE3DF-A910-4ECD-8A21-A86683B9B358}|IT114L-B54-Group 5\\IT114L-B54-Group 5.csproj|C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\it114l-b54-group 5\\reservation.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A2BE3DF-A910-4ECD-8A21-A86683B9B358}|IT114L-B54-Group 5\\IT114L-B54-Group 5.csproj|solutionrelative:it114l-b54-group 5\\reservation.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BE3DF-A910-4ECD-8A21-A86683B9B358}|IT114L-B54-Group 5\\IT114L-B54-Group 5.csproj|C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\it114l-b54-group 5\\roomsingle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{5A2BE3DF-A910-4ECD-8A21-A86683B9B358}|IT114L-B54-Group 5\\IT114L-B54-Group 5.csproj|solutionrelative:it114l-b54-group 5\\roomsingle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BE3DF-A910-4ECD-8A21-A86683B9B358}|IT114L-B54-Group 5\\IT114L-B54-Group 5.csproj|C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\it114l-b54-group 5\\masterpage2.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{5A2BE3DF-A910-4ECD-8A21-A86683B9B358}|IT114L-B54-Group 5\\IT114L-B54-Group 5.csproj|solutionrelative:it114l-b54-group 5\\masterpage2.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BE3DF-A910-4ECD-8A21-A86683B9B358}|IT114L-B54-Group 5\\IT114L-B54-Group 5.csproj|C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\it114l-b54-group 5\\masterpage1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{5A2BE3DF-A910-4ECD-8A21-A86683B9B358}|IT114L-B54-Group 5\\IT114L-B54-Group 5.csproj|solutionrelative:it114l-b54-group 5\\masterpage1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A2BE3DF-A910-4ECD-8A21-A86683B9B358}|IT114L-B54-Group 5\\IT114L-B54-Group 5.csproj|C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\it114l-b54-group 5\\aftersignin_homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{5A2BE3DF-A910-4ECD-8A21-A86683B9B358}|IT114L-B54-Group 5\\IT114L-B54-Group 5.csproj|solutionrelative:it114l-b54-group 5\\aftersignin_homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Reservation.Master.cs",
+              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\IT114L-B54-Group 5\\Reservation.Master.cs",
+              "RelativeDocumentMoniker": "IT114L-B54-Group 5\\Reservation.Master.cs",
+              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\IT114L-B54-Group 5\\Reservation.Master.cs",
+              "RelativeToolTip": "IT114L-B54-Group 5\\Reservation.Master.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-10-18T10:23:36.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Reservation.Master",
+              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\IT114L-B54-Group 5\\Reservation.Master",
+              "RelativeDocumentMoniker": "IT114L-B54-Group 5\\Reservation.Master",
+              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\IT114L-B54-Group 5\\Reservation.Master",
+              "RelativeToolTip": "IT114L-B54-Group 5\\Reservation.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-18T10:23:36.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoomSuite.aspx",
+              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\IT114L-B54-Group 5\\RoomSuite.aspx",
+              "RelativeDocumentMoniker": "IT114L-B54-Group 5\\RoomSuite.aspx",
+              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\IT114L-B54-Group 5\\RoomSuite.aspx",
+              "RelativeToolTip": "IT114L-B54-Group 5\\RoomSuite.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-18T10:23:36.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RoomSingle.aspx",
+              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\IT114L-B54-Group 5\\RoomSingle.aspx",
+              "RelativeDocumentMoniker": "IT114L-B54-Group 5\\RoomSingle.aspx",
+              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\IT114L-B54-Group 5\\RoomSingle.aspx",
+              "RelativeToolTip": "IT114L-B54-Group 5\\RoomSingle.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000192|",
+              "WhenOpened": "2024-10-18T10:23:36.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RoomDouble.aspx",
+              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\IT114L-B54-Group 5\\RoomDouble.aspx",
+              "RelativeDocumentMoniker": "IT114L-B54-Group 5\\RoomDouble.aspx",
+              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\IT114L-B54-Group 5\\RoomDouble.aspx",
+              "RelativeToolTip": "IT114L-B54-Group 5\\RoomDouble.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000192|",
+              "WhenOpened": "2024-10-18T10:23:36.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Reservation.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\IT114L-B54-Group 5\\Reservation.aspx.cs",
+              "RelativeDocumentMoniker": "IT114L-B54-Group 5\\Reservation.aspx.cs",
+              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\IT114L-B54-Group 5\\Reservation.aspx.cs",
+              "RelativeToolTip": "IT114L-B54-Group 5\\Reservation.aspx.cs",
+              "ViewState": "AQIAAOoAAAAAAAAAAAAawPYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-10-18T10:23:36.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Reservation.aspx",
+              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\IT114L-B54-Group 5\\Reservation.aspx",
+              "RelativeDocumentMoniker": "IT114L-B54-Group 5\\Reservation.aspx",
+              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\IT114L-B54-Group 5\\Reservation.aspx",
+              "RelativeToolTip": "IT114L-B54-Group 5\\Reservation.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000192|",
+              "WhenOpened": "2024-10-18T10:23:36.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomePage.aspx",
+              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\IT114L-B54-Group 5\\HomePage.aspx",
+              "RelativeDocumentMoniker": "IT114L-B54-Group 5\\HomePage.aspx",
+              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\IT114L-B54-Group 5\\HomePage.aspx",
+              "RelativeToolTip": "IT114L-B54-Group 5\\HomePage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-18T10:23:36.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MasterPage1.Master",
+              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\IT114L-B54-Group 5\\MasterPage1.Master",
+              "RelativeDocumentMoniker": "IT114L-B54-Group 5\\MasterPage1.Master",
+              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\IT114L-B54-Group 5\\MasterPage1.Master",
+              "RelativeToolTip": "IT114L-B54-Group 5\\MasterPage1.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-18T10:23:36.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MasterPage2.Master",
+              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\IT114L-B54-Group 5\\MasterPage2.Master",
+              "RelativeDocumentMoniker": "IT114L-B54-Group 5\\MasterPage2.Master",
+              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\IT114L-B54-Group 5\\MasterPage2.Master",
+              "RelativeToolTip": "IT114L-B54-Group 5\\MasterPage2.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001823|",
+              "WhenOpened": "2024-10-18T10:23:36.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AfterSignIn_Homepage.aspx",
+              "DocumentMoniker": "C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\IT114L-B54-Group 5\\AfterSignIn_Homepage.aspx",
+              "RelativeDocumentMoniker": "IT114L-B54-Group 5\\AfterSignIn_Homepage.aspx",
+              "ToolTip": "C:\\Users\\crist\\OneDrive\\Documents\\GitHub\\Hotel-Website-aspnet\\IT114L-B54-Group 5\\AfterSignIn_Homepage.aspx",
+              "RelativeToolTip": "IT114L-B54-Group 5\\AfterSignIn_Homepage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000192|",
+              "WhenOpened": "2024-10-18T10:23:36.858Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
