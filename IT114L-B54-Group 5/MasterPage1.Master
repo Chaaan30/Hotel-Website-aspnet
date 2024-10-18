@@ -1,0 +1,92 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage1.Master.cs" Inherits="IT114L_B54_Group_5.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <style>
+        body, html {
+          height: 100%;
+          margin: 0;
+          font-family: Arial;
+        }
+
+        .button {
+          display: inline-block;
+          margin-left: 20px;
+        }
+        
+        * {box-sizing: border-box;}
+
+        .header {
+          overflow: hidden;
+          background-color: #8C52FF;
+          padding: 20px 10px;
+        }
+
+        .header a {
+          float: left;
+          color: black;
+          text-align: center;
+          padding: 12px;
+          text-decoration: none;
+          font-size: 18px; 
+          line-height: 25px;
+          border-radius: 4px;
+        }
+
+        .header a.active {
+          background-color: #ffde59;
+          color: black;
+          margin-right: 10px;
+        }
+
+        .header a:hover {
+          background-color: #d6ba49;
+        }
+
+        .header-right {
+          float: right;
+        }
+
+        @media screen and (max-width: 500px) {
+          .header a {
+            float: none;
+            display: block;
+            text-align: left;
+          }
+  
+          .header-right {
+            float: none;
+          }
+        }
+        </style>
+
+    <title>Home - De Luna Hotel</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+         <div class="header">
+
+          <div class="header-right">
+            <a class="active" href="HomePage.aspx">Home</a>
+            <a class="active" href="HotelAreas.aspx">Hotel Areas</a>
+            <a class="active" href="Registration.aspx">Register</a>
+            <a class="active" href="SignIn.aspx">Sign-In</a>
+
+          </div>
+
+             <asp:ImageButton class="button" ID="ImageButton1" runat="server" Height="45px" ImageUrl="~/Images/HotelLogo.png" PostBackUrl="~/HomePage.aspx" Width="45px" CausesValidation="False" ToolTip="Home" />
+          </div>
+        
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,270 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Reservation.master.cs" Inherits="IT114L_B54_Group_5.Reservation" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <style>
+        body, html {
+          height: 100%;
+          margin: 0;
+          font-family: Arial;
+
+        }
+
+        .button {
+          display: inline-block;
+          margin-left: 20px;
+        }
+        
+        * {box-sizing: border-box;}
+
+        .header {
+          overflow: hidden;
+          background-color: #8C52FF;
+          padding: 20px 10px;
+        }
+
+        .header a {
+          float: left;
+          color: black;
+          text-align: center;
+          padding: 12px;
+          text-decoration: none;
+          font-size: 18px; 
+          line-height: 25px;
+          border-radius: 4px;
+        }
+
+        .header a.active {
+          background-color: #ffde59;
+          color: black;
+          margin-right: 10px;
+        }
+
+        .header a:hover {
+          background-color: #d6ba49;
+        }
+
+        .header-right {
+          float: right;
+        }
+
+        @media screen and (max-width: 500px) {
+          .header a {
+            float: none;
+            display: block;
+            text-align: left;
+          }
+  
+          .header-right {
+            float: none;
+          }
+        }
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            text-align: center;
+            font-size: xx-large;
+            height: 72px;
+        }
+        .auto-style3 {
+            font-size: x-large;
+            color: #8C52FF;
+        }
+        .auto-style4 {
+            border-style: solid;
+width: 182px;
+            text-align: center;
+        }
+        .auto-style7 {
+            font-size: large;
+        }
+        .header-rightalt {
+          float: right;
+          margin-right: 20px;
+          margin-top: 12px;
+        }
+        .auto-style9 {
+            font-size: x-large;
+            text-decoration: none;
+        }
+        .auto-style10 {
+            color: #8C52FF;
+        }
+        .modal {
+			display: none;
+			position: fixed;
+			z-index: 1;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			overflow: auto;
+			background-color: rgba(0, 0, 0, 0.4);
+		}
+
+		.modal-content {
+			background-color: #fefefe;
+			margin: 15% auto;
+			padding: 20px;
+			border: 1px solid #888;
+			width: 80%;
+			max-width: 600px;
+		}
+
+		.close {
+			color: #aaa;
+			float: right;
+			font-size: 28px;
+			font-weight: bold;
+		}
+
+		.close:hover,
+		.close:focus {
+			color: black;
+			text-decoration: none;
+			cursor: pointer;
+		}
+        .showstandc{
+            color: #8C52FF;
+            font: small;
+
+        }
+
+        .showstandc2{
+            text-align: center;
+
+        }
+       
+        </style>
+
+    <title>Home - De Luna Hotel</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+         <div class="header">
+
+          <div class="header-right">
+            <a class="active" href="AfterSignIn_Homepage.aspx">Home</a>
+            <a class="active" href="AfterSignIn_HotelAreas.aspx">Hotel Areas</a>
+            <a class="active" href="RoomSingle.aspx">Reservation</a>
+            <a class="active" href="Homepage.aspx">Logout</a>
+
+
+          </div>
+
+             <asp:ImageButton class="button" ID="ImageButton1" runat="server" Height="45px" ImageUrl="~/Images/HotelLogo.png" PostBackUrl="~/AfterSignIn_Homepage.aspx" Width="45px" CausesValidation="False" ToolTip="Home" />
+          &nbsp;&nbsp;&nbsp;&nbsp;
+             <asp:Label ID="Username_Login" runat="server" CssClass="header-rightalt" Font-Bold="True" Font-Size="X-Large" ForeColor="White"></asp:Label>
+          </div>
+        
+        <div>
+            <table class="auto-style1">
+                <tr class="showstandc2">
+                    <td style="color: #8C52FF;" colspan="2"><span class="auto-style2"><strong>Reservation</strong></span><br />
+                        <asp:LinkButton runat="server" OnClick="Terms_Click" OnClientClick="openModal(); return false;" CssClass="showstandc">Show Terms and Conditions</asp:LinkButton>
+	                 <div id="myModal" class="modal">
+		                <div class="modal-content">
+			                <span class="close" onclick="closeModal()">&times;</span>
+			                <h2 style="color: black;">Terms and Conditions</h2>
+			                <p style="color: black;"><b>Once you click "Reserve" you AGREE to our Terms and Conditions</b></p>
+                            <p style="color: black;">1. Reservation Process: The online hotel reservation process allows you to reserve a room or suite at the selected hotel. The reservation will be confirmed by the admin.
+                            </p>
+                            <p style="color: black;">2. Personal Information: By making a reservation, you agree to provide accurate and complete personal information, including your name, address, and payment information. The hotel reserves the right to request additional identification or payment verification on-site.
+                            </p>
+                            <p style="color: black;">3. Damage Policy: The hotel's on-site manager reserves the right to charge guests for any damage to the hotel property or contents caused by the guest or their visitors, please consult with the on-site manager for more details.
+                            </p>
+                            <p style="color: black;">4. Transaction Policy: We only take reservations from exclusive registered clients. There is no reservation payment as we only accept reservations through the online website.   
+                            </p>
+                            <p style="color: black;">5. Payment Process:  We do not accept any type of transaction online. Your transaction or mode of payment (Cash, Card, etc.) shall be processed once you enter the hotel. Upon entry inside the hotel, our exclusive clients will be escorted to the reception hall by our staff to settle their payments on-site. For more information, please ask the on-site hotel's receptionist. 
+                            </p>
+                            <p style="color: black;">6. These terms and conditions constitute the entire agreement between the clients and the hotel only. This conditions overrule all prior agreements or misunderstandings made by any party (ex: staff, manager, clients, admin, etc.) whether written or oral.</p>
+		                </div>
+	                </div>
+	                <script>
+                        var modal = document.getElementById("myModal");
+
+                        function openModal() {
+                            modal.style.display = "block";
+                        }
+
+                        function closeModal() {
+                            modal.style.display = "none";
+                        }
+
+                        window.onclick = function (event) {
+                            if (event.target == modal) {
+                                closeModal();
+                            }
+                        }
+                    </script>
+
+                </tr>
+                <tr>
+                    <td class="auto-style4">
+                        <span class="auto-style3"><strong>Room Types:<br />
+                        </strong></span><br class="auto-style7" />
+                        <asp:HyperLink ID="HyperLink1" runat="server" CssClass="auto-style9" NavigateUrl="~/RoomSingle.aspx" ForeColor="#8C52FF" BorderStyle="None">Single Room</asp:HyperLink>
+                        <br />
+                        <br />
+                        <asp:HyperLink ID="HyperLink2" runat="server" CssClass="auto-style9" NavigateUrl="~/RoomDouble.aspx" ForeColor="#8C52FF" BorderStyle="None">Double Room</asp:HyperLink>
+                        <br />
+                        <br />
+                        <asp:HyperLink ID="HyperLink3" runat="server" CssClass="auto-style9" NavigateUrl="~/RoomSuite.aspx" ForeColor="#8C52FF" BorderStyle="None">Suite</asp:HyperLink>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                            <ContentTemplate>
+                                <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+                                <asp:GridView ID="GridView10" runat="server" Width="190px">
+                                    <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+                                    <HeaderStyle BackColor="#FFDE59" Font-Bold="True" ForeColor="#8C52FF" />
+                                    <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
+                                    <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
+                                    <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />
+                                    <SortedAscendingCellStyle BackColor="#E9E7E2" />
+                                    <SortedAscendingHeaderStyle BackColor="#506C8C" />
+                                    <SortedDescendingCellStyle BackColor="#FFFDF8" />
+                                    <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
+                                </asp:GridView>
+                                <asp:Timer ID="Timer1" runat="server" Interval="1000" OnTick="Timer1_Tick"></asp:Timer>
+                            </ContentTemplate>
+                        </asp:UpdatePanel>
+                        <strong>
+                        <asp:Label ID="Label1" runat="server" CssClass="showstandc" Text="1 = Occupied"></asp:Label>
+                        </strong>
+                        <br />
+                        <strong>
+                        <asp:Label ID="Label2" runat="server" CssClass="showstandc" Text="0 = Available"></asp:Label>
+                        </strong>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <span class="auto-style10"><strong>&quot;Come as a guest, leave as a friend, our hotel&#39;s hospitaltiy never ends&quot;</strong></span></td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>
